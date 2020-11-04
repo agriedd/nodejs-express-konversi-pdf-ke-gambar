@@ -1,0 +1,10 @@
+body
+    div
+        ul
+            - let regex = RegExp(`${dirname}`);
+            each img in list
+                li
+                    - console.log(dirname);
+                    - console.log(img.basename);
+                    - let img_path = img.basename.replace(regex, "");
+                    img(src=host + `/${img_path}`, alt="", height="100%", width="auto")
