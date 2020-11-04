@@ -13,3 +13,11 @@ untuk linux
 ```cli
 $ apt install imagemagick
 ```
+
+cara run aplikasi
+
+```cli
+  //di directory aplikasi
+$ sudo npm run dev
+  //akan berjalan di http://127.0.0.1
+```
