@@ -1,8 +1,8 @@
 const http = require('http')
 const express = require('express')
 const app = express(http)
-import router from './router/web'
-import diskStorage from './config/storage'
+import router from './router/web.js'
+import diskStorage from './config/storage.js'
 
 app.set('view engine', 'pug')
 app.set('views', './res/views')
